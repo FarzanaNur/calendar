@@ -37,3 +37,48 @@ nav a{
     padding: 10px 0px;   
 }
 /* nav end */
+/* main body styling */
+main{
+    
+    height: fit-content;
+}
+/* calender section start */
+.calender-section{
+    margin: 30px 80px;
+    background-color: #02101530;
+    box-shadow:0px 0px 5px 5px #02101573;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.calender-container{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 30x repeat(5,50px);
+    /* border: 2px solid #020715; */
+    border-radius: 10px;
+    width: 80%;
+}
+.date,.day{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    color: aliceblue;
+    font-size: 1.5em;
+    background-color: #021015;
+    border-radius: 15px;
+    height: fit-content; 
+    row-gap: 5px;
+    column-gap: 15px;
+}
+.date{
+    font-size: 2em;
+    font-weight: 700;
+    color: #021015;
+    background-color: #0210158c;
+}
+/* calender section end */
