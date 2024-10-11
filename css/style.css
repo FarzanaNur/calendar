@@ -1,5 +1,8 @@
+/* shared styling */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     background-color: #021015;
+    font-family: "Libre Baskerville", serif;
 }
