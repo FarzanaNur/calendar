@@ -3,6 +3,37 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #021015;
+    /* background-color: #021015; */
     font-family: "Libre Baskerville", serif;
 }
+/* header style */
+/* nav start */
+.header{
+    border: 2px solid;
+    padding: 20px;
+    background-color:  #021015; 
+    box-shadow: 0px 0px 5px 5px bisque;
+}
+.nav-li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
+.heading{
+    color: antiquewhite;
+    font-size: 3em;
+    letter-spacing: 10px;
+    text-shadow: 3px 2px lightseagreen;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:overline underline;
+    padding: 10px 0px;   
+}
+/* nav end */
