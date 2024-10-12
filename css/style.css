@@ -67,18 +67,33 @@ main{
     align-items: center;
     padding: 20px;
     margin: 10px;
-    color: aliceblue;
     font-size: 1.5em;
     background-color: #021015;
     border-radius: 15px;
-    height: fit-content; 
+    /* height: fit-content;  */
     row-gap: 5px;
     column-gap: 15px;
 }
+.day a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.day a:hover{
+    /* font-size: 1.3em; */
+    /* letter-spacing: 5px; */
+    transition-delay: .3s ease;
+    font-weight: 700;
+    text-shadow: 2px 2px lightseagreen;
+}
+
 .date{
     font-size: 2em;
     font-weight: 700;
     color: #021015;
     background-color: #0210158c;
+}
+.date:hover{
+    cursor:pointer;
+    background-color:#021015c4; ;
 }
 /* calender section end */
