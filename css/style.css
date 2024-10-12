@@ -3,16 +3,17 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-color: #021015; */
+    font-weight: 700;
     font-family: "Libre Baskerville", serif;
 }
 /* header style */
 /* nav start */
 .header{
-    border: 2px solid;
+    /* position: relative; */
+    /* border: 2px solid; */
     padding: 20px;
     background-color:  #021015; 
-    box-shadow: 0px 0px 5px 5px bisque;
+    /* box-shadow: 0px 0px 5px 5px bisque; */
 }
 .nav-li{
     display: flex;
@@ -23,58 +24,59 @@ nav a{
     text-decoration: none;
     color: antiquewhite;
     font-size: 20px;
-    font-weight: 700;
     padding: 20px;
 }
-.heading{
+.heading-title{
     color: antiquewhite;
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: 10px;
     text-shadow: 3px 2px lightseagreen;
     text-align: center;
     text-transform: uppercase;
-    text-decoration:overline underline;
+    text-decoration:underline;
     padding: 10px 0px;   
 }
 /* nav end */
 /* main body styling */
-main{
-    
-    height: fit-content;
+main{  
+    /* height: fit-content; */
 }
 /* calender section start */
 .calender-section{
-    margin: 30px 80px;
     background-color: #02101530;
-    box-shadow:0px 0px 5px 5px #02101573;
+    box-shadow:0px 0px 5px 5px #0210156c;
     border-radius: 10px;
-    padding: 50px;
+    margin: 50px 300px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    /* align-items: center; */
 }
 .calender-container{
+    
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    grid-template-rows: 30x repeat(5,50px);
+    /* grid-template-rows: 20x repeat(5,40px); */
     /* border: 2px solid #020715; */
     border-radius: 10px;
-    width: 80%;
+    /* width: 50%; */ 
 }
+
 .date,.day{
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    padding: 5px;
     margin: 10px;
-    font-size: 1.5em;
+    font-size: .6em;
     background-color: #021015;
-    border-radius: 15px;
+    border-radius: 5px;
+    /* justify-content: center; */
+    /* align-items: center; */
     /* height: fit-content;  */
-    row-gap: 5px;
-    column-gap: 15px;
+    /* row-gap: 5px;
+    column-gap: 15px; */
 }
 .day a{
+    font-size: 1.5em;
     text-decoration: none;
     color: aliceblue;
 }
@@ -87,13 +89,43 @@ main{
 }
 
 .date{
-    font-size: 2em;
-    font-weight: 700;
+    font-size: 1.1em;
     color: #021015;
     background-color: #0210158c;
 }
 .date:hover{
+    color: #82cde9;
     cursor:pointer;
-    background-color:#021015c4; ;
+    background-color:#021015c4; 
 }
 /* calender section end */
+/* footer */
+.footer{
+    color: antiquewhite;
+    letter-spacing: 5px;
+    background-color: #021015;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+.footer-text{
+    text-shadow:1px 1px #82cde9;
+}
+/* responsive styling */
+
+@media (max-width: 600px) {
+    .date,
+    .day {
+        font-size: 1.2em; /* Slightly smaller text on small screens */
+        padding: 5px; /* Reduced padding */
+    }
+}
+
+@media (max-width: 400px) {
+    .date,
+    .day {
+        font-size: 1em; /* Even smaller text for very small screens */
+        padding: 5px; /* Further reduced padding */
+    }
+}
