@@ -5,6 +5,7 @@
     padding: 0;
     font-weight: 700;
     font-family: "Libre Baskerville", serif;
+    transition: smooth;
 }
 /* header style */
 /* nav start */
@@ -65,12 +66,13 @@ nav a{
     text-align: center;
     padding: 5px;
     margin: 10px;
-    font-size: .6em;
+    font-size: .9em;
     background-color: #021015;
     border-radius: 5px;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* height: fit-content;  */
+    /* justify-content: center;
+    align-items: center;
+    height: 50px; 
+    width: 80px; */
     /* row-gap: 5px;
     column-gap: 15px; */
 }
@@ -85,10 +87,10 @@ nav a{
     text-shadow: 2px 2px lightseagreen;
 }
 .date a{
-    font-size: 1.1em;
+    font-size: 1.5em;
     text-decoration: none;
     color: #021015;
-    
+    /* color: #82cde9; */
     /* color: aliceblue; */
 }
 .date a:hover{
@@ -99,7 +101,7 @@ nav a{
 }
 .date{
     /* font-size: 1.1em; */
-    /* color: #021015; */
+    color: #021015;
     background-color: #0210158c;
 }
 .date:hover{
@@ -121,6 +123,32 @@ nav a{
 .footer-text{
     text-shadow:1px 1px #82cde9;
 }
+
+
+/* TO-DO LIST STYLING START */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* .to-do-container{
+    justify-items: center;
+    align-items: center;
+    background-color:  #87cefa33;
+}   */
+/* .task-manage-container{
+    max-width: 400px;
+    margin: 50px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #82cde9;
+    background-color: #021015;
+}  */
+
+
+/* TO-DO LIST STYLING END */
+
 /* responsive styling */
 
 @media (max-width: 640px) {
