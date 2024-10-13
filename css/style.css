@@ -275,17 +275,15 @@ button{
     .day {
         margin: 2px;
         padding: 3px;
-        font-size: .3em; /* Slightly smaller text on small screens */
+        font-size: .3rem; 
         height: fit-content;
         width: 20px;
-        
         /* border: 2px solid red; */
     }
     .day a,.date{
         font-size: .3rem;
     }
     footer{
-        
         margin-bottom: 0;
         font-size: .5em;
         letter-spacing: normal;
