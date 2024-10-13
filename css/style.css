@@ -201,7 +201,7 @@ body{
     gap: 5px ;
     /* background-color: #021015; */
     margin-bottom: 30px;
-    box-shadow:0px 0px 5px 0px #021015;
+    /* box-shadow:0px 0px 5px 0px #021015; */
     border-radius: 5px;
 }
 input{
@@ -214,6 +214,9 @@ input{
     border-radius: 5px;
     background-color: #0210152f;
     border: 2px solid #82cde9;
+}
+input:focus{
+    color:#021015;
 }
 button{
     height: 32px;
