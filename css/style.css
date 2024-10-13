@@ -129,24 +129,65 @@ nav a{
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 /* section{
     justify-content: center;
     align-items: center;
 }  */
-.task-manage-container{
-    max-width: 400px;
+body{
+    background-color: beige;
     color: #82cde9;
+}
+/* section to-do-container style start */
+.to-do-container{
+    /* max-width: 700px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    border: 2px solid red;
+}
+.task-manage-container{
+    padding: 20px;
+    border-radius: 10px;
     background-color: #021015;
+    border: 2px solid #82cde9;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px;
-    padding: 30px;
-    border: 2px solid red;
-    border-radius: 15px;
+    gap: 40px; 
+    /* max-width: 700px; */
 } 
-
+.task-details{
+    width: 100%;
+}
+#progress-bar{
+    width: 100%;
+    height: 10px;
+    background-color: #367f999a;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#progress{
+    width:70% ;
+    height: 10px;
+    border-radius: 5px;
+    transition:all 0.3s ease;
+    background-color: #82cde9;
+}
+/* task-number styling */
+#number{
+    font-size: 35px;
+    color: #021015;
+    background-color: #82cde9;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 3px #367f99;
+}
 
 /* TO-DO LIST STYLING END */
 
