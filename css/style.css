@@ -130,21 +130,22 @@ nav a{
     padding: 0;
     margin: 0;
 }
-/* .to-do-container{
-    justify-items: center;
+/* section{
+    justify-content: center;
     align-items: center;
-    background-color:  #87cefa33;
-}   */
-/* .task-manage-container{
+}  */
+.task-manage-container{
     max-width: 400px;
-    margin: 50px;
-    border: 2px solid red;
+    color: #82cde9;
+    background-color: #021015;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #82cde9;
-    background-color: #021015;
-}  */
+    margin: 50px;
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 15px;
+} 
 
 
 /* TO-DO LIST STYLING END */
