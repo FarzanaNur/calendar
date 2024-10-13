@@ -61,7 +61,6 @@ nav a{
     border-radius: 10px;
     /* width: 50%; */ 
 }
-
 .date,.day{
     text-align: center;
     padding: 5px;
@@ -138,19 +137,22 @@ nav a{
 body{
     background-color: beige;
     color: #82cde9;
+    /* justify-content: center;
+    align-items: center; */
 }
 /* section to-do-container style start */
 .to-do-container{
     /* max-width: 700px; */
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 120px;
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 120px auto ; */
+    /* border: 2px solid red; */
 }
 .task-manage-container{
     padding: 20px;
+    margin: 100px 0px 40px 0px;
     border-radius: 10px;
     background-color: #021015;
     border: 2px solid #82cde9;
@@ -158,6 +160,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 40px; 
+    width: 600px;
     /* max-width: 700px; */
 } 
 .task-details{
@@ -188,7 +191,27 @@ body{
     border-radius: 50%;
     box-shadow: 0px 0px 3px 3px #367f99;
 }
-
+.form{
+    width: 600px;
+    /* height: 30px; */
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    
+    /* background-color: #021015; */
+    
+    
+}
+input{
+    flex: 1; /* takes up the entire available space*/
+    outline: none;
+    height: 30px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #0210152f;
+    border: 2px solid #82cde9;
+}
 /* TO-DO LIST STYLING END */
 
 /* responsive styling */
