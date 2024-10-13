@@ -84,10 +84,22 @@ nav a{
     font-weight: 700;
     text-shadow: 2px 2px lightseagreen;
 }
-
-.date{
+.date a{
     font-size: 1.1em;
+    text-decoration: none;
     color: #021015;
+    
+    /* color: aliceblue; */
+}
+.date a:hover{
+    color: #82cde9;
+    transition-delay: .3s ease;
+    cursor:pointer;
+    /* background-color:#021015c4;  */
+}
+.date{
+    /* font-size: 1.1em; */
+    /* color: #021015; */
     background-color: #0210158c;
 }
 .date:hover{
