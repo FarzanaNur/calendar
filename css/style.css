@@ -135,8 +135,10 @@ nav a{
     .calender-section{
         grid-template-columns: repeat(7,1fr);
         grid-template-rows: repeat(5,20px);
-        margin: 10px;
+        margin: 100px;
         padding: 2px;
+        justify-content: center;
+        align-items: center;
         /* border: 2px solid red; */
     }
     .calender-container{
@@ -160,7 +162,8 @@ nav a{
     .day a,.date{
         font-size: .4rem;
     }
-    .footer{
+    footer{
+        
         margin-bottom: 0;
         font-size: .5em;
         letter-spacing: normal;
