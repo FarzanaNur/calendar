@@ -6,15 +6,16 @@
     font-weight: 700;
     font-family: "Libre Baskerville", serif;
     transition: smooth;
+    transition-delay: .3s ease;
 }
 /* header style */
 /* nav start */
 .header{
-    padding: 20px;
-    background-color:  #021015; 
+    padding: 10px;
+    background-color:  #021015ba; 
     /* position: relative; */
     /* border: 2px solid; */
-    /* box-shadow: 0px 0px 5px 5px bisque; */
+    box-shadow: 0px 0px 5px 5px rgba(13, 5, 34, 0.25);
 }
 .nav-li{
     display: flex;
@@ -26,6 +27,10 @@ nav a{
     color: antiquewhite;
     font-size: 20px;
     padding: 20px;
+}
+nav a:hover{
+    color: #79a3b3;
+    cursor: pointer;
 }
 .heading-title{
     color: antiquewhite;
@@ -43,10 +48,10 @@ nav a{
 /* calender section start */
 .calender-section{
     padding: 40px;
-    margin: 50px;
-    background-color: #02101530;
-    box-shadow:0px 0px 5px 5px #0210156c;
-    border-radius: 10px;
+    margin: 30px;
+    background-color: #bfd6de30;
+    box-shadow:0px 0px 5px 5px #0210153c;
+    border-radius: 5px;
     /* display: flex; */
     /* justify-content: center; */
     /* border: 2px solid red; */
@@ -54,8 +59,8 @@ nav a{
 }
 .calender-container{
     display: grid;
-    grid-template-columns: repeat(7,1fr);
-    /* grid-template-rows: repeat(6,70px); */
+    grid-template-columns: repeat(7,1fr) ;
+    grid-template-rows: repeat(6,1fr);
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -63,40 +68,34 @@ nav a{
 }
 .date,.day{
     text-align: center;
-    padding: 5px;
-    margin: 10px;
+    padding: 20px 15px;
+    margin: 20px;
+    /* border: 2px solid red; */
     font-size: .9em;
     background-color: #021015;
     border-radius: 5px;
-    /* justify-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    height: 50px; 
-    width: 80px; */
+    height: 80px; 
+    /* width: 80px; */
     /* row-gap: 5px;
     column-gap: 15px; */
 }
 .day a{
-    font-size: 1.5em;
+    font-size: 1.9em;
     text-decoration: none;
     color: aliceblue;
 }
-.day a:hover{
+.day:hover a{
     transition-delay: .3s ease;
     font-weight: 700;
     text-shadow: 2px 2px lightseagreen;
 }
 .date a{
-    font-size: 1.5em;
+    font-size: 1.9em;
     text-decoration: none;
     color: #021015;
-    /* color: #82cde9; */
-    /* color: aliceblue; */
-}
-.date a:hover{
-    color: #82cde9;
-    transition-delay: .3s ease;
-    cursor:pointer;
-    /* background-color:#021015c4;  */
 }
 .date{
     /* font-size: 1.1em; */
@@ -104,9 +103,12 @@ nav a{
     background-color: #0210158c;
 }
 .date:hover{
+    background-color:#021015c4; 
+}
+.date:hover a{
     color: #82cde9;
     cursor:pointer;
-    background-color:#021015c4; 
+    /* background-color:#021015c4;  */
 }
 /* calender section end */
 /* footer */
